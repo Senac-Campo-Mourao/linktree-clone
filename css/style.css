@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.perfil h1 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    color: #38bdf8;
+}
+
+.perfil .bio {
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.perfil .foto-perfil {
+    width: 7vw;
+    min-width: 100px;
+    height: 10vh;
+    min-height: 100px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    object-fit: cover;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e293b;
+    color: #f8fafc;
+    text-decoration: none;
+    padding: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    transition: all 0.3s ease;
+}
+
+.link-botao:hover {
+    background-color: #38bdf8;
+    color: #0f172a;
+    transform: scale(1.02);
+}
+
+.link-botao i {
+    margin-right: 2vh;
+    font-size: 1 rem;
+}
+
+footer {
+    margin-top: 10vh;
+    font-size: 1rem;
+    color: #64748b;
+}
